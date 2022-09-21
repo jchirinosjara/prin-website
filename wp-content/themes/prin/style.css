@@ -1,0 +1,46 @@
+/*
+Theme Name: Partido Político PRIN
+Text Domain: prin
+Version: 1.0
+Description: Tema principal del portal web oficial del Partido Político PRIN
+Author: Abel Chirinos <jchirinosjara@gmail.co>
+Author URI: https://github.com/jchirinosjara
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,800;1,500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px !important;
+}
+.bg-primary{
+    background: #E10803;
+}
+.bg-secondary{
+    background: #252525;
+}
+
+iframe {
+    z-index: -1;
+}
+#site-logo > a > img {
+    height: 60px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-item-parent:hover > a, .menu-item-parent:hover > ul > li:hover > a {
+    color:#ffffff;
+    background: #E10803;
+}
+
+.menu-item-parent:hover > ul{
+    display: block;
+}
+
+#footer-logo{
+    height: 80px;
+}
